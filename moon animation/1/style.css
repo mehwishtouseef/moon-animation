@@ -1,0 +1,31 @@
+body{
+    background-image: url('sky.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    background: floralwhite;
+    height: 0px;
+    width: 0px;
+    color: red;
+    text-align: center;
+    margin-top: 50px;
+    animation: a 4s infinite;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    border: 2px double white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 86px 9px navajowhite;
+}
+@keyframes a{
+    10%{
+        height: 400px;
+        width: 400px;
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
